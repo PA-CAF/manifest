@@ -149,6 +149,7 @@
   <!-- END AOSP-CAF -->
 
   <!-- BEGIN PA-CAF -->
+  <project name="PA-CAF/platform_build" path="build" remote="github" revision="n-mr1" >
   <project name="PA-CAF/android_packages_apps_Jelly" path="packages/apps/Jelly" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="n-mr1-msm8994" />
