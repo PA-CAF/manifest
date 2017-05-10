@@ -93,6 +93,7 @@
 
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_bionic" path="bionic" remote="aosp-caf" />
+  <project name="PA-CAF/android_build" path="build" remote="github" revision="n-mr1" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
@@ -139,7 +140,6 @@
 
   <!-- BEGIN PA-CAF [WIP]-->
   <project name="PA-CAF/android_art" path="art" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_build" path="build" remote="github" revision="n-mr1" /> 
   <project name="PA-CAF/android_device_qcom_common" path="device/qcom/common" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_frameworks_av" path="frameworks/av" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_frameworks_base" path="frameworks/base" remote="github" revision="n-mr1" />
