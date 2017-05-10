@@ -55,9 +55,12 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -124,13 +127,10 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr1-caf" remote="aosp-caf" />
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosp-caf" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
-  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosp-caf" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
@@ -148,6 +148,7 @@
   <project name="PA-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_core" path="system/core" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr1" />
@@ -155,14 +156,26 @@
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="n-mr1" />
   <!-- END PA-CAF -->
+
+  <!-- BEGIN AOSPA -->
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
+  <project path="packages/apps/SnapdragonGallery" name="android_packages_apps_SnapdragonGallery" remote="aospa" groups="aospa" />
+  <project path="packages/apps/SnapdragonMusic" name="android_packages_apps_SnapdragonMusic" remote="aospa" groups="aospa" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
+  <!-- END AOSPA-->
 
   <!-- BEGIN CAF -->
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
+  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" />
   <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- ENG SUBSTRATUM -->
+
+  <!-- Telephony -->
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="aospa" groups="aospa" />
 
 </manifest>

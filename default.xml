@@ -5,6 +5,10 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/cm-14.1" />
 
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA"
+           revision="refs/heads/nougat-mr1" />
+
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr1" />
