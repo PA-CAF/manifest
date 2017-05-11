@@ -125,8 +125,6 @@
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="aosp-caf" />
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n-mr1-caf" remote="aosp-caf" />
-  <project name="platform_hardware_ril" path="hardware/ril" remote="aosp-caf" />
-  <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
@@ -147,6 +145,8 @@
   <project name="PA-CAF/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_hardware_ril" path="hardware/ril" remote="github" revision="n-mr1"/>
+  <project name="PA-CAF/android_hardware_ril-caf" path="hardware/ril-caf" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr1" />
