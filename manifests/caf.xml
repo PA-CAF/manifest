@@ -146,7 +146,7 @@
   <project name="PA-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_hardware_ril" path="hardware/ril" remote="github" revision="n-mr1"/>
-  <project name="PA-CAF/android_hardware_ril-caf" path="hardware/ril-caf" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="n-mr1-caf" />
   <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n-mr1" />
