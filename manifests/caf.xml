@@ -168,7 +168,6 @@
 
   <!-- BEGIN CAF -->
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
-  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" />
   <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
