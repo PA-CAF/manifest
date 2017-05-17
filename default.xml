@@ -22,6 +22,10 @@
 
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
+  
+   <remote name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="nougat-mr1"/>
 
   <default revision="refs/tags/LA.UM.5.7.r1-08900-8x98.0"
            remote="caf"
