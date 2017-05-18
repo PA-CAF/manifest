@@ -157,7 +157,7 @@
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="n-mr1" />
+  <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
