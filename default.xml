@@ -27,7 +27,7 @@
            fetch="https://github.com/ThankYouMario"
            revision="nougat-mr1"/>
 
-  <default revision="refs/tags/LA.UM.5.7.r2-00900-8x98.0"
+  <default revision="refs/tags/LA.UM.5.7.r1-09500-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
