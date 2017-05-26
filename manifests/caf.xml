@@ -96,7 +96,7 @@
 
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_bionic" path="bionic" remote="aosp-caf" />
-  <project name="PA-CAF/android_build" path="build" remote="github" revision="n-mr1" >
+  <project name="PA-CAF/android_build" path="build" remote="github" revision="n-mr2" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
@@ -137,26 +137,27 @@
   <!-- END AOSP-CAF -->
 
   <!-- BEGIN PA-CAF [WIP]-->
-  <project name="PA-CAF/android_art" path="art" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_device_qcom_common" path="device/qcom/common" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_frameworks_av" path="frameworks/av" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_frameworks_base" path="frameworks/base" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_frameworks_native" path="frameworks/native" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_art" path="art" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_device_qcom_common" path="device/qcom/common" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_frameworks_av" path="frameworks/av" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_frameworks_base" path="frameworks/base" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_frameworks_native" path="frameworks/native" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_hardware_ril" path="hardware/ril" remote="github" revision="n-mr1"/>
   <project name="PA-CAF/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="n-mr1-caf" />
-  <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_system_core" path="system/core" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_system_core" path="system/core" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr2" />
   <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
   <!-- END PA-CAF -->
 
