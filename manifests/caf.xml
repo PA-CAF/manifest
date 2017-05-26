@@ -128,7 +128,6 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosp-caf" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
-  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
@@ -147,17 +146,18 @@
   <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_hardware_ril" path="hardware/ril" remote="github" revision="n-mr1"/>
   <project name="PA-CAF/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="n-mr1-caf" />
+  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr2" /> 
   <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n-mr1" /> 
   <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_core" path="system/core" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr1" />
   <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
   <!-- END PA-CAF -->
 
