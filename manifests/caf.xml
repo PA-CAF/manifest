@@ -142,19 +142,19 @@
   <project name="PA-CAF/android_frameworks_base" path="frameworks/base" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_frameworks_native" path="frameworks/native" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_hardware_ril" path="hardware/ril" remote="github" revision="n-mr1"/>
+  <project name="PA-CAF/android_hardware_ril" path="hardware/ril" remote="github" revision="n-mr2"/>
   <project name="PA-CAF/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="n-mr1-caf" />
   <project name="PA-CAF/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="n-mr2" /> 
   <project name="PA-CAF/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n-mr1" /> 
+  <project name="PA-CAF/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n-mr2" /> 
   <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_core" path="system/core" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr1" />
