@@ -154,7 +154,7 @@
   <project name="PA-CAF/android_system_bt" path="system/bt" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_core" path="system/core" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr1" />
-  <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
   <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr2" />
