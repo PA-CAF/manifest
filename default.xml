@@ -5,6 +5,10 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/cm-14.1" />
 
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA"
+           revision="refs/heads/nougat-mr1" />
+
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr1" />
@@ -18,8 +22,12 @@
 
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
+  
+   <remote name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="nougat-mr1"/>
 
-  <default revision="refs/tags/LA.UM.5.7.r1-08900-8x98.0"
+  <default revision="refs/tags/LA.UM.5.7.r1-09500-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
