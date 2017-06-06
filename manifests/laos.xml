@@ -34,7 +34,6 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="laos" revision="cm-14.1-caf-8996" />
   <project name="android_hardware_ril" path="hardware/ril"  groups="pdk" remote="laos" />
   <project name="android_hardware_ril" path="hardware/ril-caf"  groups="pdk" remote="laos" revision="cm-14.1-caf" />
-  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="laos" />
   <!-- END LINEAGE-OS -->
   
 </manifest>
