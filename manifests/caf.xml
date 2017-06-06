@@ -37,6 +37,7 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/vulkan-validation-layers"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
@@ -168,6 +169,7 @@
   <!-- BEGIN AOSPA -->
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
+  <project name="android_external_vulkan-validation-layers" path="external/vulkan-validation-layers" remote="aospa" />
   <project path="packages/apps/SnapdragonGallery" name="android_packages_apps_SnapdragonGallery" remote="aospa" groups="aospa" />
   <project path="packages/apps/SnapdragonMusic" name="android_packages_apps_SnapdragonMusic" remote="aospa" groups="aospa" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
