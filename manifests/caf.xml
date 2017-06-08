@@ -100,7 +100,6 @@
   <!-- BEGIN AOSP-CAF -->
 
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
-  <project name="platform_bionic" path="bionic" remote="aosp-caf" />
   <project name="PA-CAF/android_build" path="build" remote="github" revision="n-mr2" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -133,6 +132,7 @@
 
   <!-- BEGIN PA-CAF [WIP]-->
   <project name="PA-CAF/android_art" path="art" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_bionic" path="bionic" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_device_qcom_common" path="device/qcom/common" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="n-mr2" />
@@ -160,18 +160,18 @@
   <project name="PA-CAF/android_system_extras" path="system/extras" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr2" />
-  <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr1" />
+  <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr2" />
-  <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
   <project name="android_external_vulkan-validation-layers" path="external/vulkan-validation-layers" remote="aospa" />
-  <project path="packages/apps/SnapdragonGallery" name="android_packages_apps_SnapdragonGallery" remote="aospa" groups="aospa" />
-  <project path="packages/apps/SnapdragonMusic" name="android_packages_apps_SnapdragonMusic" remote="aospa" groups="aospa" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
+  <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" groups="aospa" />
+  <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" groups="aospa" />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aospa" groups="aospa" />
+  <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
   <!-- END AOSPA-->
 
   <!-- BEGIN CAF -->
