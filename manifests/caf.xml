@@ -98,8 +98,6 @@
   <!-- REMOVE PROJECTS -->
 
   <!-- BEGIN AOSP-CAF -->
-
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="PA-CAF/android_build" path="build" remote="github" revision="n-mr2" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -122,7 +120,6 @@
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
@@ -133,6 +130,7 @@
   <project name="PA-CAF/android_art" path="art" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_bionic" path="bionic" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_device_qcom_common" path="device/qcom/common" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_external_busybox" path="external/busybox" remote="github" revision="n-mr2" />
@@ -161,6 +159,7 @@
   <project name="PA-CAF/android_system_media" path="system/media" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_netd" path="system/netd" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_system_qcom" path="vendor/qcom/opensource/softap" remote="github" revision="n-mr2" />
+  <project name="PA-CAF/android_system_sepolicy" path="system/sepolicy" remote="github" revision="n-mr2" />
   <project name="PA-CAF/android_vendor_aosp" path="vendor/aosp" remote="github" revision="n-mr2" />
   <!-- END PA-CAF -->
 
