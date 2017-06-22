@@ -13,6 +13,10 @@
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr1" />
 
+  <remote  name="pa-caf"
+           fetch="https://github.com/PA-CAF"
+           revision="refs/heads/n-mr2" />
+
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
            review="codeaurora.org"/>
@@ -559,5 +563,8 @@
 
   <!-- LAOS additions -->
   <include name="manifests/laos.xml"/>
+
+  <!-- PA additions -->
+  <include name="manifests/pa.xml"/>
 
 </manifest>

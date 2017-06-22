@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- BEGIN PA-CAF [WIP]-->
+  <project name="android_build" path="build" remote="pa-caf" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="android_art" path="art" remote="pa-caf" />
+  <project name="android_bionic" path="bionic" remote="pa-caf" />
+  <project name="android_build_kati" path="build/kati" remote="pa-caf" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pa-caf" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="pa-caf" />
+  <project name="android_external_busybox" path="external/busybox" remote="pa-caf" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
+  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="pa-caf" />
+  <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="pa-caf" />
+  <project name="android_hardware_cyanogen" path="hardware/cyanogen" remote="pa-caf" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
+  <project name="android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="pa-caf" />
+  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="pa-caf" />
+  <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="pa-caf" />
+  <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="pa-caf" />
+  <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="pa-caf" />
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="pa-caf" />
+  <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="pa-caf" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="pa-caf" /> 
+  <project name="android_system_bt" path="system/bt" remote="pa-caf" />
+  <project name="android_system_core" path="system/core" remote="pa-caf" />
+  <project name="android_system_extras" path="system/extras" remote="pa-caf" />
+  <project name="android_system_media" path="system/media" remote="pa-caf" />
+  <project name="android_system_netd" path="system/netd" remote="pa-caf" />
+  <project name="android_system_qcom" path="vendor/qcom/opensource/softap" remote="pa-caf" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="pa-caf" />
+  <project name="android_vendor_aosp" path="vendor/aosp" remote="pa-caf" />
+  <!-- END PA-CAF -->
+
+  <!-- BEGIN AOSPA -->
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aospa" />
+  <project name="android_packages_apps_Calendar" path="packages/apps/Calendar" remote="aospa" />
+  <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="aospa" />
+  <project name="android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="aospa" />
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="aospa" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aospa" />
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
+  <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
+  <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="aospa" />
+  <project name="android_external_vulkan-validation-layers" path="external/vulkan-validation-layers" remote="aospa" />
+  <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" groups="aospa" />
+  <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" groups="aospa" />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aospa" groups="aospa" />
+  <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
+  <!-- END AOSPA-->
+</manifest>
