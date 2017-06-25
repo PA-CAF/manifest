@@ -52,6 +52,7 @@
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="aospa" />
+  <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
   <project name="android_external_vulkan-validation-layers" path="external/vulkan-validation-layers" remote="aospa" />
   <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" groups="aospa" />
   <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" groups="aospa" />
