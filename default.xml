@@ -11,7 +11,7 @@
 
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
-           revision="refs/heads/n-mr1" />
+           revision="refs/heads/n-mr2" />
 
   <remote  name="pa-caf"
            fetch="https://github.com/PA-CAF"
