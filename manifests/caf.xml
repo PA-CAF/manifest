@@ -18,7 +18,6 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/sample" />
-  <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-4.4" />
   <remove-project name="platform/abi/cpp" />
   <remove-project name="platform/art" />
@@ -26,7 +25,6 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
-  <remove-project name="platform/external/ant-wireless/ant_service" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/fsck_msdos" />
@@ -37,7 +35,6 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
-  <remove-project name="platform/external/vulkan-validation-layers"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
@@ -55,21 +52,13 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/CMFileManager" />
-  <remove-project name="platform/packages/apps/Contacts" />
-  <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
-  <remove-project name="platform/packages/apps/SnapdragonGallery" />
-  <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -92,19 +81,21 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
   <remove-project name="platform/vendor/qcom/cobalt" />
   <remove-project name="platform/vendor/qcom/cobalt_32" />
-  <remove-project name="platform/vendor/qcom/falcon_32"/>
-  <remove-project name="platform/vendor/qcom/falcon_64"/>
-  <remove-project name="platform/vendor/qcom/thorium_32"/>
-  <remove-project name="platform/vendor/qcom/thorium_64"/>
-  <remove-project name="platform/vendor/qcom/thulium"/>
-  <remove-project name="platform/vendor/qcom/titanium_32"/>
-  <remove-project name="platform/vendor/qcom/titanium_64"/>
+  <remove-project name="platform/vendor/qcom/falcon_32" />
+  <remove-project name="platform/vendor/qcom/falcon_64" />
+  <remove-project name="platform/vendor/qcom/thorium_32" />
+  <remove-project name="platform/vendor/qcom/thorium_64" />
+  <remove-project name="platform/vendor/qcom/thulium" />
+  <remove-project name="platform/vendor/qcom/titanium_32" />
+  <remove-project name="platform/vendor/qcom/titanium_64" />
   <!-- REMOVE PROJECTS -->
 
   <!-- BEGIN AOSP-CAF -->
+  <project name="platform_art" path="art" remote="aosp-caf" />
+  <project name="platform_bionic" path="bionic" remote="aosp-caf" />
+  <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aosp-caf" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aosp-caf" />
-  <project name="platform_external_bash" path="external/bash" remote="aosp-caf" />
   <project name="platform_external_connectivity" path="external/connectivity" remote="aosp-caf" />
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="aosp-caf" />
   <project name="platform_external_exfat" path="external/exfat" remote="aosp-caf" />
@@ -121,11 +112,27 @@
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="aosp-caf" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="aosp-caf" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="aosp-caf" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" remote="aosp-caf" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="aosp-caf" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="aosp-caf" />
+  <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aosp-caf" />
+  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="aosp-caf" />
+  <project name="platform_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="aosp-caf" />
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aosp-caf" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
+  <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
+  <project name="platform_system_extras" path="system/extras" remote="aosp-caf" />
+  <project name="platform_system_media" path="system/media" remote="aosp-caf" />
+  <project name="platform_system_netd" path="system/netd" remote="aosp-caf" />
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
+  <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
+  <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
