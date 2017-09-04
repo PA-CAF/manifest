@@ -5,6 +5,7 @@
   <project name="android_build" path="build" remote="pa-caf" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="android_art" path="art" remote="pa-caf" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
