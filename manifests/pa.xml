@@ -13,13 +13,13 @@
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
   <project name="android_hardware_cyanogen" path="hardware/cyanogen" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="pa-caf" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
   <project name="android_system_core" path="system/core" remote="pa-caf" />
   <project name="android_vendor_aosp" path="vendor/aosp" remote="pa-caf" />
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
-  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
