@@ -13,6 +13,9 @@
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
   <project name="android_hardware_cyanogen" path="hardware/cyanogen" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="pa-caf"/>
+  <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="pa-caf"/>
+  <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="pa-caf"/>
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="pa-caf" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
   <project name="android_system_core" path="system/core" remote="pa-caf" />
