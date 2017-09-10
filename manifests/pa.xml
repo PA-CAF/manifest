@@ -6,6 +6,7 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="android_art" path="art" remote="pa-caf" />
+  <project name="android_bionic" path="bionic" remote="pa-caf" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
   <project name="android_external_skia" path="external/skia" remote="pa-caf" />
