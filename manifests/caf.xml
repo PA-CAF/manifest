@@ -126,8 +126,6 @@
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="aosp-caf" />
   <project name="platform_system_bt" path="system/bt" remote="aosp-caf" />
-  <project name="platform_system_extras" path="system/extras" remote="aosp-caf" />
-  <project name="platform_system_media" path="system/media" remote="aosp-caf" />
   <project name="platform_system_netd" path="system/netd" remote="aosp-caf" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="aosp-caf" />
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
