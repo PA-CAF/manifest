@@ -18,7 +18,6 @@
   <project name="android_hardware_cyanogen" path="hardware/cyanogen" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
-  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="pa-caf"/>
   <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="pa-caf"/>
   <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="pa-caf"/>
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="pa-caf" />
@@ -33,6 +32,7 @@
 
   <!-- BEGIN AOSPA -->
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
+  <project name="android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="aospa"/>
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
   <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
