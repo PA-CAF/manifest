@@ -20,7 +20,6 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
   <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="pa-caf"/>
   <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="pa-caf"/>
-  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="pa-caf" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="pa-caf" />
   <project name="android_system_bt" path="system/bt" remote="pa-caf" />
@@ -34,6 +33,7 @@
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
   <project name="android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="aospa"/>
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
