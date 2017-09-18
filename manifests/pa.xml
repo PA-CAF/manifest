@@ -9,8 +9,9 @@
   <project name="android_bionic" path="bionic" remote="pa-caf" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
-  <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_external_busybox" path="external/busybox" remote="pa-caf" />
+  <project name="android_external_bson" path="external/bson" remote="pa-caf" />
+  <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
