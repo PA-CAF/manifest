@@ -40,6 +40,6 @@
   <project name="android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="aospa"/>
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
-  <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="blobs"/>
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github"/>
   <!-- END AOSPA-->
 </manifest>
