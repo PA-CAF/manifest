@@ -16,6 +16,7 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="pa-caf" />
+  <project name="android_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="pa-caf" />
   <project name="android_hardware_cyanogen" path="hardware/cyanogen" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
