@@ -21,8 +21,6 @@
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
   <project name="android_hardware_ril-caf" path="hardware/ril-caf" remote="pa-caf" />
-  <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="pa-caf"/>
-  <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="pa-caf"/>
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="pa-caf" />
   <project name="android_system_bt" path="system/bt" remote="pa-caf" />
@@ -36,10 +34,27 @@
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
+  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="aospa" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
   <project name="android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="aospa"/>
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
+  <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" />
+  <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" />
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aospa" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="aospa" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospa" clone-depth="1"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
+  <project path="vendor/blobscript" name="android_vendor_blobscript" remote="aospa" groups="aospa" />
+
   <!-- END AOSPA-->
 </manifest>
