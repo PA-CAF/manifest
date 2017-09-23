@@ -14,7 +14,6 @@
   <project name="android_external_bson" path="external/bson" remote="pa-caf" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pa-caf" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="pa-caf" />
-  <project name="android_external_chromium-webview" path="external/chromium-webview" remote="pa-caf" clone-depth="1" />
   <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
