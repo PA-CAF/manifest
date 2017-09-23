@@ -103,7 +103,6 @@
   <project name="platform_external_jemalloc" path="external/jemalloc" remote="aosp-caf" />
   <project name="platform_external_mksh" path="external/mksh" remote="aosp-caf" />
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosp-caf" />
-  <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
