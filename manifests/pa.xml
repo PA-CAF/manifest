@@ -7,28 +7,43 @@
   </project>
   <project name="android_art" path="art" remote="pa-caf" />
   <project name="android_bionic" path="bionic" remote="pa-caf" />
+  <project name="android_build_kati" path="build/kati" remote="pa-caf" groups="pdk,tradefed" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
   <project name="android_external_busybox" path="external/busybox" remote="pa-caf" />
   <project name="android_external_bson" path="external/bson" remote="pa-caf" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pa-caf" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="pa-caf" />
   <project name="android_external_chromium-webview" path="external/chromium-webview" remote="pa-caf" clone-depth="1" />
   <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="pa-caf" />
+  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="pa-caf" />
   <project name="android_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="pa-caf" />
   <project name="android_hardware_cyanogen" path="hardware/cyanogen" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
   <project name="android_hardware_ril-caf" path="hardware/ril-caf" remote="pa-caf" />
+  <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="pa-caf" />
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="pa-caf" />
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="pa-caf" />
+  <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="pa-caf" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
+  <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="pa-caf" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="pa-caf" />
   <project name="android_system_bt" path="system/bt" remote="pa-caf" />
   <project name="android_system_core" path="system/core" remote="pa-caf" />
   <project name="android_system_extras" path="system/extras" remote="pa-caf" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="pa-caf" />
   <project name="android_system_media" path="system/media" remote="pa-caf" />
+  <project name="android_system_netd" path="system/netd" remote="pa-caf" />
+  <project name="android_system_vold" path="system/vold" remote="pa-caf" />
+  <project name="android_system_qcom" path="vendor/qcom/opensource/softap" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="pa-caf" />
   <project name="android_vendor_aosp" path="vendor/aosp" remote="pa-caf" />
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="pa-caf" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="pa-caf" />
@@ -57,6 +72,5 @@
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
   <project path="vendor/blobscript" name="android_vendor_blobscript" remote="aospa" groups="aospa" />
-
   <!-- END AOSPA-->
 </manifest>
