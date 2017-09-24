@@ -52,6 +52,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
   <remove-project name="platform/packages/apps/Launcher3" />
