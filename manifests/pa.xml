@@ -51,13 +51,11 @@
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
-  <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="aospa" />
   <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="aospa" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
   <project name="android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="aospa"/>
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
-  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="aospa" />
   <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" />
   <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" />
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
