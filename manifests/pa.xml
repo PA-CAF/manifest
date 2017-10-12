@@ -61,10 +61,6 @@
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aospa" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="aospa" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospa" clone-depth="1"/>
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/broadcom/wlan" />
