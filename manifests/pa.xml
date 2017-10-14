@@ -49,6 +49,7 @@
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="pa-caf" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="pa-caf" />
   <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="pa-caf" />
+  <project name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="pa-caf" />
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
