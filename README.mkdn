@@ -1,6 +1,8 @@
 PA-CAF
 ===========
 
+ParanoidAndroid based AOSP ROM built with sources from CodeAuroraForums
+
 Getting Started
 ---------------
 
