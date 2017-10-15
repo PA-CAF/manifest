@@ -54,7 +54,6 @@
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
-  <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="aospa" />
   <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="aospa" />
   <project name="android_packages_apps_Mms" path="packages/apps/Mms" remote="aospa" />
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
@@ -62,7 +61,6 @@
   <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" />
   <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aospa" />
-  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="aospa" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/broadcom/wlan" />
@@ -70,5 +68,11 @@
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
   <project path="vendor/blobscript" name="android_vendor_blobscript" remote="aospa" groups="aospa" />
+
+  <!-- Telephony -->
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="aospa" groups="aospa" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="aospa" groups="aospa" />
   <!-- END AOSPA-->
 </manifest>
