@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote  name="aosp"
+           revision="refs/tags/android-7.1.2_r33"
+           fetch="https://android.googlesource.com"/>
+
   <remote  name="laos"
            fetch="https://github.com/LineageOS"
            revision="refs/heads/cm-14.1" />
