@@ -59,8 +59,10 @@
   <project name="android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="aospa" />
   <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" />
   <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" />
-  <project name="android_packages_apps_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aospa" />
   <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="aospa" />
+
+  <!-- Substratum -->
+  <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/broadcom/wlan" />
