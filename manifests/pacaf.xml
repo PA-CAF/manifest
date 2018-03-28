@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOVE PROJECTS -->
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="device/sample" />
+  <remove-project name="kernel/lk" />
+  <remove-project name="kernel/msm-3.18" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/external/libweave" />
+  <remove-project name="platform/external/okhttp" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/qcom" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/dpm" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom/msm8937_32go" />
+  <remove-project name="platform/vendor/qcom/thorium_32" />
+  <remove-project name="platform/vendor/qcom/thorium_64" />
+  <remove-project name="platform/vendor/qcom/thulium" />
+  <remove-project name="platform/vendor/qcom/titanium_32" />
+  <remove-project name="platform/vendor/qcom/titanium_64" />
+  <!-- REMOVE PROJECTS -->
+
+  <!-- BEGIN PA-CAF -->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
+  <project name="android_bionic" path="bionic" remote="pa-caf" />
+  <project name="android_bootable_recovery" path="bootable/recovery" remote="pa-caf" />
+  <project name="android_build" path="build/make" remote="pa-caf" >
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project name="android_build_kati" path="build/kati" remote="pa-caf" />
+  <project name="android_build_soong" path="build/soong" remote="pa-caf" >
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+  </project>
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="pa-caf" />
+  <project name="android_external_connectivity" path="external/connectivity" remote="pa-caf" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pa-caf" />
+  <project name="android_external_libweave" path="external/libweave" remote="pa-caf" />
+  <project name="android_external_okhttp" path="external/okhttp" remote="pa-caf" />
+  <project name="android_external_selinux" path="external/selinux" remote="pa-caf" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
+  <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="pa-caf" />
+  <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="pa-caf" />
+  <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="pa-caf" >
+  <copyfile dest="hardware/custom/Android.bp" src="Android.bp" />
+  </project>
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="pa-caf" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
+  <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="pa-caf" />
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="pa-caf" />
+  <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
+  <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="pa-caf" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="pa-caf" />
+  <project name="android_system_bt" path="system/bt" remote="pa-caf" />
+  <project name="android_system_core" path="system/core" remote="pa-caf" />
+  <project name="android_system_nfc" path="system/nfc" remote="pa-caf" />
+  <project name="android_system_vold" path="system/vold" remote="pa-caf" />
+  <project name="android_system_qcom" path="vendor/qcom/opensource/softap" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="pa-caf" />
+  <project name="android_vendor_custom" path="vendor/custom" remote="pa-caf" />
+  <!-- END PA-CAF -->
+
+</manifest>
