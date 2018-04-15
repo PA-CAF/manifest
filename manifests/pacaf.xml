@@ -105,6 +105,8 @@
   <project name="android_system_bt" path="system/bt" remote="pa-caf" />
   <project name="android_system_core" path="system/core" remote="pa-caf" />
   <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" remote="pa-caf" />
+  <project name="android_system_tools_hidl" path="system/tools/hidl" remote="pa-caf" />
+  <project name="android_system_libhidl" path="system/libhidl"  remote="pa-caf"  />
   <project name="android_system_nfc" path="system/nfc" remote="pa-caf" />
   <project name="android_system_vold" path="system/vold" remote="pa-caf" />
   <project name="android_system_qcom" path="vendor/qcom/opensource/softap" remote="pa-caf" />

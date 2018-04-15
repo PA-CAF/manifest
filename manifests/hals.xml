@@ -37,7 +37,5 @@
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.1-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="lineage-15.1" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-15.1" />
-  <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" remote="github" revision="lineage-15.1" />
-  <project path="system/libhidl" name="LineageOS/android_system_libhidl" remote="github" revision="lineage-15.1" />
 
 </manifest>
