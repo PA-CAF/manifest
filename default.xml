@@ -562,7 +562,6 @@
   <project name="platform/system/netd" path="system/netd" />
   <project name="platform/system/nfc" path="system/nfc" />
   <project name="platform/system/nvram" path="system/nvram" />
-  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" />
   <project name="platform/system/security" path="system/security" />
   <project name="platform/system/sepolicy" path="system/sepolicy" />
   <project name="platform/system/timezone" path="system/timezone" />

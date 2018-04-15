@@ -46,7 +46,6 @@
   <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/nfc" />
-  <remove-project name="platform/system/qcom" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
