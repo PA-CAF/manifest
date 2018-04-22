@@ -21,6 +21,7 @@
   <remove-project name="device/sample" />
   <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-3.18" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -67,6 +68,7 @@
   <!-- BEGIN PA-CAF -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
+  <project name="android_art" path="art" remote="pa-caf" />
   <project name="android_bionic" path="bionic" remote="pa-caf" />
   <project name="android_bootable_recovery" path="bootable/recovery" remote="pa-caf" />
   <project name="android_build" path="build/make" remote="pa-caf" >
