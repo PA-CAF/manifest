@@ -38,5 +38,5 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="lineage-15.1" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-15.1" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-15.1" /> 
-
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="lineage-15.1" /> 
 </manifest>
