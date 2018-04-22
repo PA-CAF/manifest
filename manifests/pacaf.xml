@@ -96,9 +96,6 @@
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="pa-caf" />
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="pa-caf" />
-  <project name="android_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="pa-caf" >
-  <copyfile dest="hardware/custom/Android.bp" src="Android.bp" />
-  </project>
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
   <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="pa-caf" />
