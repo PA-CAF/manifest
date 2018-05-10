@@ -33,6 +33,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/hardware/interfaces" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -95,6 +96,7 @@
   <project name="android_external_selinux" path="external/selinux" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
+  <project name="android_frameworks_hardware_interfaces" path="frameworks/hardware/interfaces" remote="pa-caf" />
   <project name="android_frameworks_native" path="frameworks/native" remote="pa-caf" />
   <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="pa-caf" />
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="pa-caf" />
