@@ -9,6 +9,11 @@
            fetch="https://github.com/PA-CAF"
            revision="refs/heads/o-mr1" />
 
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-8.1.0_r26" />
+
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
            review="codeaurora.org" />
@@ -467,7 +472,7 @@
   <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" />
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" />
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" />
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" /> 
+  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" />
   <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" />
   <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" />
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" />
@@ -521,14 +526,6 @@
   <project name="platform/prebuilts/deqp" path="prebuilts/deqp" clone-depth="1" />
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1" />
   <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1" />
-  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1" />
   <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1" />
   <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1" />
@@ -622,5 +619,6 @@
   <!-- AOSP-CAF additions -->
   <include name="manifests/pacaf.xml"/>
   <include name="manifests/hals.xml"/>
+  <include name="manifests/aosp.xml"/>
 
 </manifest>
