@@ -411,7 +411,6 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware" />
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
   <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal" />
-  <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" />
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" />
   <project name="platform/hardware/ril" path="hardware/ril" />
   <project name="platform/libcore" path="libcore" />
