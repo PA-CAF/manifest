@@ -41,7 +41,14 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -124,6 +131,20 @@
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
+  <project name="AOSPA/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="oreo-mr1" />
   <project name="AOSPA/android_packages_apps_ParanoidCamera" path="packages/apps/ParanoidCamera" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_ParanoidPapers" path="packages/apps/ParanoidPapers" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA/android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="oreo-mr1" />
   <!-- END AOSPA -->
+
+  <!-- BEGIN SDCLANG -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" path="vendor/qcom/sdclang-3.9/linux-x86" remote="github" revision="oreo"/>
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86"  remote="github" revision="oreo-mr1"/>
+  <!-- END SDCLANG -->
+
 </manifest>
