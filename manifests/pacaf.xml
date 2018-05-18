@@ -114,6 +114,7 @@
   <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="pa-caf" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
+  <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="pa-caf" />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="pa-caf" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="pa-caf" />
@@ -132,7 +133,6 @@
   <!-- END PA-CAF -->
 
   <!-- BEGIN AOSPA -->
-  <project name="AOSPA/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="oreo-mr1" />
   <project name="AOSPA/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="oreo-mr1" />
   <project name="AOSPA/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="oreo-mr1" />
   <project name="AOSPA/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="oreo-mr1" />
