@@ -55,6 +55,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
@@ -121,6 +122,7 @@
   <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" remote="pa-caf" />
   <project name="android_system_tools_hidl" path="system/tools/hidl" remote="pa-caf" />
   <project name="android_system_libhidl" path="system/libhidl"  remote="pa-caf"  />
+  <project name="android_system_media" path="system/media"  remote="pa-caf"  />
   <project name="android_system_nfc" path="system/nfc" remote="pa-caf" />
   <project name="android_system_qcom" path="system/qcom" remote="pa-caf" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="pa-caf" />
