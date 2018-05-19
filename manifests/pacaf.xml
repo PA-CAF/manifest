@@ -60,6 +60,7 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
@@ -128,6 +129,8 @@
   <project name="android_system_qcom" path="system/qcom" remote="pa-caf" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="pa-caf" />
   <project name="android_system_vold" path="system/vold" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_bluetooth_ext" path="vendor/qcom/opensource/bluetooth_ext" remote="pa-caf" />
   <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="pa-caf" />
   <project name="android_vendor_custom" path="vendor/custom" remote="pa-caf" />
   <!-- END PA-CAF -->
