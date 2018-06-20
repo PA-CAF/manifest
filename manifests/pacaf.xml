@@ -42,6 +42,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -118,6 +119,7 @@
   <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="pa-caf" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
+  <project name="android_libcore" path="libcore" remote="pa-caf" />
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="pa-caf" />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="pa-caf" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa-caf" />
