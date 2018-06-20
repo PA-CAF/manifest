@@ -31,6 +31,7 @@
   <remove-project name="platform/external/libweave" />
   <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/hardware/interfaces" />
@@ -104,6 +105,7 @@
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pa-caf" />
   <project name="android_external_libweave" path="external/libweave" remote="pa-caf" />
   <project name="android_external_okhttp" path="external/okhttp" remote="pa-caf" />
+  <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_external_selinux" path="external/selinux" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
