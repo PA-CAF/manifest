@@ -33,6 +33,7 @@
   <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/walt" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/hardware/interfaces" />
@@ -111,6 +112,7 @@
   <project name="android_external_okhttp" path="external/okhttp" remote="pa-caf" />
   <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_external_selinux" path="external/selinux" remote="pa-caf" />
+  <project name="android_external_walt" path="external/walt" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
   <project name="android_frameworks_hardware_interfaces" path="frameworks/hardware/interfaces" remote="pa-caf" />
