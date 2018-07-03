@@ -69,6 +69,7 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
@@ -143,6 +144,7 @@
   <project name="android_system_update_engine" path="system/update_engine" remote="pa-caf" />
   <project name="android_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="pa-caf" />
   <project name="android_vendor_qcom-opensource_bluetooth_ext" path="vendor/qcom/opensource/bluetooth_ext" remote="pa-caf" />
+  <project name="android_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="pa-caf" />
   <project name="android_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="pa-caf" />
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="pa-caf" /> 
   <project name="android_vendor_custom" path="vendor/custom" remote="pa-caf" />
