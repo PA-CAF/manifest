@@ -106,13 +106,13 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="pa-caf" />
-  <project name="android_external_connectivity" path="external/connectivity" remote="pa-caf" />
   <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pa-caf" />
+  <project name="android_external_connectivity" path="external/connectivity" remote="pa-caf" />
   <project name="android_external_libweave" path="external/libweave" remote="pa-caf" />
   <project name="android_external_mm-dash" path="external/mm-dash" remote="pa-caf" />
   <project name="android_external_okhttp" path="external/okhttp" remote="pa-caf" />
-  <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_external_selinux" path="external/selinux" remote="pa-caf" />
+  <project name="android_external_skia" path="external/skia" remote="pa-caf" />
   <project name="android_external_walt" path="external/walt" remote="pa-caf" />
   <project name="android_frameworks_av" path="frameworks/av" remote="pa-caf" />
   <project name="android_frameworks_base" path="frameworks/base" remote="pa-caf" />
