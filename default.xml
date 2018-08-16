@@ -7,7 +7,7 @@
 
   <remote  name="pa-caf"
            fetch="https://github.com/PA-CAF"
-           revision="refs/heads/o-mr1" />
+           revision="refs/heads/o-mr2" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
