@@ -87,6 +87,7 @@
 
   <!-- BEGIN PA-CAF -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="pa-caf" />
+  <project name="android_device_custom_sepolicy" path="device/custom/sepolicy" remote="pa-caf" />
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pa-caf" />
   <project name="android_art" path="art" remote="pa-caf" />
   <project name="android_bionic" path="bionic" remote="pa-caf" />
