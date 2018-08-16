@@ -122,7 +122,6 @@
   <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="pa-caf" />
   <project name="android_hardware_interfaces" path="hardware/interfaces" remote="pa-caf" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="pa-caf" />
-  <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="pa-caf" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="pa-caf" />
   <project name="android_hardware_ril" path="hardware/ril" remote="pa-caf" />
   <project name="android_libcore" path="libcore" remote="pa-caf" />
